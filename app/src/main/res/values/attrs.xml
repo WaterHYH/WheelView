@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DatePicker">
+        <attr name="pickerTextSize" format="dimension"/>
+        <attr name="pickerNormalColor" format="color"/>
+        <attr name="pickerSelectedColor" format="color"/>
+        <attr name="pickerType">
+            <flag name="date" value="1"/>
+            <flag name="time" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>

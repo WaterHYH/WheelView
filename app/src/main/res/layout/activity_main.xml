@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.water.wheelview.MainActivity"
+    android:orientation="vertical">
+
+    <com.water.wheelview.DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:pickerNormalColor="@android:color/darker_gray"
+        app:pickerSelectedColor="@android:color/holo_green_dark"
+        app:pickerType="date|time"
+        app:pickerTextSize="24px">
+
+    </com.water.wheelview.DatePicker>
+
+</LinearLayout>
